@@ -1,1 +1,44 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: Jorge Góis - Someone
+description: "A blog about Jorge Góis ..."
+baseurl: "/In-space-with-Gois" # for test: remove string '/space-jekyll-templa' to ''
+url: "http://http://jorgois.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+# User settings
+username: Jorge Góis
+user_title: In space with Gois
+twitter_username: jg0is
+github_username:  JorGois
+#gplus_username:  JorGois
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+#  - title: my posts
+#    url: /posts
+#  - title: series
+#    url: /series
+#  - title: tags
+#    url: /tags
+#  - title: about me
+#    url: /about
+# projects in header index
+#projects:
+#  - name: ND
+#    url: https://github.com/
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
