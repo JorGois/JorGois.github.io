@@ -1,7 +1,7 @@
 # Site settings
 title: Jorge Góis - Someone
 description: "A blog about Jorge Góis ..."
-baseurl: "/In-space-with-Gois" # for test: remove string '/space-jekyll-templa' to ''
+#baseurl: "/In-space-with-Gois" # for test: remove string '/space-jekyll-templa' to ''
 url: "http://http://jorgois.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
 username: Jorge Góis
